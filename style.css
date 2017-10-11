@@ -1,0 +1,58 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  background:rgb(255,0,0);
+  min-height:500px;
+  width:100%;
+  padding:50px 0;
+  text-align:center;
+  font-family:indie flower, cursive;
+}
+
+#title{
+  color:white;
+  font-size:2.5em;
+}
+
+.logo{
+ border-radius:30%;
+  height:120px;
+  width:120px;
+}
+
+.box{
+  background:rgb(255,215,0);
+  height:auto;
+  width:60%;
+  margin:auto;
+  padding:20px;
+  border:1px solid black;
+  color:black;
+  font-size:1em;
+}
+
+#quoteText{
+  font-size:2em;
+}
+
+#quoteAuthor{
+  font-size:1.5em;
+  font-style:italic;
+}
+
+#football{
+  font-size:2em;
+  cursor:pointer;
+  margin-left:10px;
+}
+
+#football:active{
+  transform:translateY(4px);
+}
+
+.fa-twitter{
+  cursor:pointer;
+}
